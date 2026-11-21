@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "A Component-Free Planar PCB Line Injector in a Business-Card Form Factor: Gerber-Based Prediction, Coupled-Inductor Measurement, and Bench Demonstration of AC Injection onto a DC Rail"
+version: "1.0"
+date-released: 2026-11-21
+authors:
+  - family-names: "Gautam"
+    given-names: "Himanshu"
+    affiliation: "Independent Researcher, India"
+    orcid: "https://orcid.org/0009-0008-5291-496X"
+license:
+  - CC-BY-4.0
+  - CERN-OHL-P-2.0
+keywords:
+  - line injector
+  - PSRR
+  - planar transformer
+  - coupled inductors
+  - air-core inductor
+  - printed circuit board
+  - open hardware
+abstract: >-
+  A printed-circuit business card of ID-1 size is designed as a
+  component-free line injector. Two interleaved planar spirals form a
+  1:1 air-core coupled inductor. Its self-inductance, mutual inductance,
+  coupling coefficient, resistance and inter-winding capacitance are
+  calculated from the Gerber files and measured with a handheld LCR meter
+  and multimeter; the calculated self- and mutual inductances are within
+  2 % of the measured values. In a bench test on a 5 V rail with a
+  resistive load, the generator signal appeared on the DC side from
+  100 kHz to 5.18 MHz. The release includes the paper, LaTeX source,
+  Gerber and Altium design files, measured data, photographs, simulation
+  files and analysis scripts.
