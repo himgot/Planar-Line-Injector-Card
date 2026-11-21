@@ -1,6 +1,7 @@
 # Planar PCB Line Injector Card
 
 **Version 1.0, 21 November 2026** · Himanshu Gautam, Independent Researcher, India · ORCID [0009-0008-5291-496X](https://orcid.org/0009-0008-5291-496X)
+Archived version (DOI):** https://doi.org/10.5281/zenodo.24417902
 
 A credit-card-size printed circuit board with no mounted components that works as a simple line injector. Two interleaved planar spirals in the copper form a 1:1 air-core coupled inductor. A signal generator drives one spiral, the DC supply rail passes through the other, and the generator's signal is added in series with the rail. This is the basic job of the line injector used to measure the power-supply ripple rejection (PSRR) of a voltage regulator.
 
