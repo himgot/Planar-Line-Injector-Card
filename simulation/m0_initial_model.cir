@@ -1,0 +1,45 @@
+* m0_initial_model.cir
+* -----------------------------------------------------------------------------
+* Initial LTspice model of the card (17 Nov 2026), written out as a portable netlist.
+* Source schematic: simulation/initial_model_LTspice.asc (included).
+* Element values and connections are taken from the schematic file:
+*   - AC_Coil and DC_Coil: 18 uH each, Rser = 7.31 ohm entered in the inductor properties
+*     (not shown on the schematic canvas), coupled with k = 0.9;
+*   - source "AC_Soure" (sic): SINE(0 1 15k), AC 1, Rser = 1 ohm;
+*   - C1..C4: 274 pF each; C4 has both plates on ground and is omitted here.
+* The plotted LTspice trace V(n002) is the undotted DC_Coil terminal, called OUTNODE here.
+* Portable SPICE: source and inductor series resistances are written as explicit resistors,
+* so the internal nodes src_int, ac_int and dc_int do not exist in the LTspice original.
+* Phasing: in LTspice the first pin of each inductor is its dotted end. AC_Coil is dotted at the
+* source side; DC_Coil is dotted at its grounded end.
+* -----------------------------------------------------------------------------
+
+* Inductor series resistances from the schematic (set both to ~0 for a "visible values only" variant)
+.param RAC_SER=7.31
+.param RDC_SER=7.31
+
+* AC source: + terminal to the AC_IN wire, - terminal to ground
+VAC_Soure src_int 0 SINE(0 1 15k) AC 1
+RAC_Soure_ser src_int AC_IN 1
+
+* AC_Coil 18u: dotted end at AC_IN, other end at ground
+LAC_Coil AC_IN ac_int 18u
+RAC_Coil_ser ac_int 0 {RAC_SER}
+
+* DC_Coil 18u: dotted end at ground, other end at the plotted node
+LDC_Coil 0 dc_int 18u
+RDC_Coil_ser dc_int OUTNODE {RDC_SER}
+
+KAC_DC LAC_Coil LDC_Coil 0.9
+
+* Capacitors (274 pF each)
+C1 OUTNODE AC_IN 274p
+C2 OUTNODE 0 274p
+C3 0 AC_IN 274p
+* C4 0 0 274p   (both plates on ground in the schematic)
+
+* ".tran 1m" is a comment in the schematic (inactive)
+.ac dec 10 1 1000G
+* Plotted trace: V(n002) in LTspice = V(OUTNODE) here.
+* Not present in the schematic: load resistor, DC source, probe model.
+.end

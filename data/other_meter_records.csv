@@ -1,0 +1,11 @@
+record_id,quantity,measured_terminals,measured_winding,condition,f_Hz,value,value_min,value_max,unit,resolution,instrument,date,source
+RDC,R_dc,each winding,A and B,dc,0,7.31,,,ohm,0.01 ohm,Keysight U1282A,Nov 2026,author's measurement (not written down at the time)
+CAB,C_interwinding,one lead on each winding,A-B,leads nulled,,274,,,pF,0.001 nF (read as 0.274 nF),Keysight U1282A,Nov 2026,author's measurement (not written down at the time)
+RL,R_load,load resistor,-,dc,0,111.6,,,ohm,0.1 ohm,Keysight U1282A,Oct 2026,bench spreadsheet (load resistance)
+NOTE-1KHZ-A-open,L,AC_IN-AC_RTN,A (AC),DC open,1000,17.9,,,uH,0.1 uH,LCR meter,early Nov 2026,author's project notes
+NOTE-1KHZ-A-short,L,AC_IN-AC_RTN,A (AC),DC shorted,1000,17.8,,,uH,0.1 uH,LCR meter,early Nov 2026,author's project notes
+NOTE-1KHZ-B-open,L,DC_IN-OUT,B (DC),AC open,1000,18.0,,,uH,0.1 uH,LCR meter,early Nov 2026,author's project notes
+NOTE-1KHZ-B-short,L,DC_IN-OUT,B (DC),AC shorted,1000,18.0,,,uH,0.1 uH,LCR meter,early Nov 2026,author's project notes
+BENCH-NOTE,L,each coil,A and B,other winding not recorded,,18.4,,,uH,0.1 uH,MECO LCR999A,22 Oct 2026,bench spreadsheet note: 'coil inductance is 18.4uH for both the coils measured with MECo LCR999A'
+FIRST-TEST,L,each coil,A and B,not recorded,,18.6,,,uH,,not recorded,Oct 2026,author's project notes (first bench test)
+OCT-NOTES,L,each coil,A and B,not recorded,,,18.3,18.6,uH,,LCR meter,Oct 2026,author's project notes

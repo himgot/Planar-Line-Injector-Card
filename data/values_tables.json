@@ -1,0 +1,734 @@
+{
+ "_meta": {
+  "date": "2026-11-17",
+  "producer": "analysis/table_values.py"
+ },
+ "tab.C.Cgap_eta05_er44_pFm": {
+  "src": "theory.Cgap_conformal_pF_per_m_er4p4",
+  "value": 23.91
+ },
+ "tab.C.Cnom_over3_pF": {
+  "src": "theory.C_AB_pF_nominal / 3",
+  "value": 53.0
+ },
+ "tab.C.epsFR4_hi": {
+  "src": "capacitance_results.json fd_cases",
+  "value": 4.7
+ },
+ "tab.C.epsFR4_lo": {
+  "src": "capacitance_results.json fd_cases",
+  "value": 4.2
+ },
+ "tab.C.mask_eps_hi": {
+  "src": "capacitance_results.json fd_cases (conformal mask)",
+  "value": 3.8
+ },
+ "tab.C.mask_eps_lo": {
+  "src": "capacitance_results.json fd_cases (conformal mask)",
+  "value": 3.8
+ },
+ "tab.C.mask_t_hi_um": {
+  "src": "capacitance_results.json fd_cases (conformal mask)",
+  "value": 10.0
+ },
+ "tab.C.mask_t_lo_um": {
+  "src": "capacitance_results.json fd_cases (conformal mask)",
+  "value": 10.0
+ },
+ "tab.F.Ra_prime_ohm": {
+  "src": "R_g + R_A (hl.Rg_ohm + theory.R_A_w0p254_t35_ohm)",
+  "value": 55.82
+ },
+ "tab.F.Rb_prime_ohm": {
+  "src": "R_B + R_L (theory.R_D... = R_A drawn; hl.RL_ohm)",
+  "value": 117.41999999999999
+ },
+ "tab.F.f_hi_3dB_C0_MHz": {
+  "src": "numerical -3 dB re peak, C = 0",
+  "value": 13.927100879686082
+ },
+ "tab.F.f_hi_3dB_Cnom3_MHz": {
+  "src": "numerical -3 dB re peak, C_AB,nom/3 between AC_IN and OUT",
+  "value": 8.563173689453434
+ },
+ "tab.F.f_hi_exact_MHz": {
+  "src": "exact real pole, eq. (H), unequal L_A, L_B, C = 0",
+  "value": 13.24326561767612
+ },
+ "tab.F.f_lo_3dB_C0_kHz": {
+  "src": "numerical -3 dB re peak, C = 0",
+  "value": 333.3128389280839
+ },
+ "tab.F.f_lo_3dB_Cnom3_kHz": {
+  "src": "numerical -3 dB re peak, C_AB,nom/3 between AC_IN and OUT",
+  "value": 331.12075479035224
+ },
+ "tab.F.f_lo_exact_kHz": {
+  "src": "exact real pole, eq. (H), unequal L_A, L_B, C = 0",
+  "value": 350.5239024228973
+ },
+ "tab.F.notch_Cnom3_MHz": {
+  "src": "|H| minimum (inductive/capacitive cancellation), C_AB,nom/3 AC_IN-OUT, 1-100 MHz",
+  "value": 14.890065633696357
+ },
+ "tab.F.peak_C0_dB": {
+  "src": "numerical peak |H|, C = 0",
+  "value": -4.349385465527158
+ },
+ "tab.F.pole_interaction_pct": {
+  "src": "R_A'R_B'(1-k^2)/(R_A'+R_B')^2",
+  "value": 2.4968862770047617
+ },
+ "tab.F.term.Hmid_dB": {
+  "src": "M R_L/(R_A L_B + R_B' L_A), dB re V(AC_IN)",
+  "value": -1.3901010894461323
+ },
+ "tab.F.term.f_hi_exact_MHz": {
+  "src": "exact pole, V_OUT/V_AC_IN, C = 0",
+  "value": 9.618563980127943
+ },
+ "tab.F.term.f_lo_exact_kHz": {
+  "src": "exact pole, V_OUT/V_AC_IN, C = 0",
+  "value": 50.3194217985676
+ },
+ "tab.Lrec.photo_max_uH": {
+  "src": "photo_index_oct24.csv P24-53..59 (18.9 read from an inverted display, 9/6 ambiguity)",
+  "value": 18.9
+ },
+ "tab.Lrec.photo_min_uH": {
+  "src": "photo_index_oct24.csv P24-53..59",
+  "value": 18.3
+ },
+ "tab.Lrec.photo_n": {
+  "src": "photo_index_oct24.csv P24-53..59 (LCR999A display, 1 kHz)",
+  "value": 7
+ },
+ "tab.Lrec.photo_n_18p6": {
+  "src": "count of 18.6 uH photos",
+  "value": 3
+ },
+ "tab.R.A_drawn_um2": {
+  "src": "drawn 0.254 mm x 35 um",
+  "value": 8889.999999999998
+ },
+ "tab.R.Aeff_ratio_pct": {
+  "src": "Aeff / drawn cross-section",
+  "value": 79.57853626709796
+ },
+ "tab.R.Aeff_um2": {
+  "src": "rho*l_A/R_meas (R_meas = meas.R_dc_ohm; includes any lead/contact R)",
+  "value": 7074.531874145007
+ },
+ "tab.R.excess_pct": {
+  "src": "meas.R_dc_ohm / theory.R_A_w0p254_t35_ohm - 1",
+  "value": 25.601374570446733
+ },
+ "tab.R.meas_vs_w020t35_abs_pct": {
+  "src": "absolute value",
+  "value": 1.0825439783491264
+ },
+ "tab.R.meas_vs_w020t35_pct": {
+  "src": "meas.R_dc_ohm / theory.R_A_w0p20_t35_ohm - 1",
+  "value": -1.0825439783491264
+ },
+ "tab.R.t_eff_w254_um": {
+  "src": "Aeff / 0.254 mm",
+  "value": 27.852487693484285
+ },
+ "tab.R.w_eff_t35_mm": {
+  "src": "Aeff / 35 um",
+  "value": 0.20212948211842882
+ },
+ "tab.cf.dev_median_vs_neumann_pct": {
+  "src": "closed-form median / Neumann L_A - 1",
+  "value": 2.6659103800340533
+ },
+ "tab.cf.n_variants": {
+  "src": "rows of work/theory/closed_form_table.csv",
+  "value": 15
+ },
+ "tab.cf2.L_A_max_uH": {
+  "src": "max, excluding R2_power_mean",
+  "value": 21.11
+ },
+ "tab.cf2.L_A_median_uH": {
+  "src": "median, excluding R2_power_mean",
+  "value": 17.91
+ },
+ "tab.cf2.L_A_min_uH": {
+  "src": "min, excluding R2_power_mean",
+  "value": 15.37
+ },
+ "tab.cf2.dev_median_vs_neumann_pct": {
+  "src": "median / Neumann L_A - 1",
+  "value": 1.5882019285309301
+ },
+ "tab.cf2.n_variants": {
+  "src": "closed_form_table.csv rows excluding R2_power_mean",
+  "value": 12
+ },
+ "tab.cmp.C_dev_V2hi_pct": {
+  "src": "C_meas / C_V2,hi - 1",
+  "value": 18.820468343451857
+ },
+ "tab.cmp.C_dev_abs_pct": {
+  "src": "absolute value",
+  "value": 72.32704402515724
+ },
+ "tab.cmp.C_dev_hi_pct": {
+  "src": "C_meas / C_theory,hi - 1",
+  "value": 67.07317073170731
+ },
+ "tab.cmp.C_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": 72.32704402515724
+ },
+ "tab.cmp.C_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 274.0
+ },
+ "tab.cmp.C_th": {
+  "src": "theory (values_theory.json)",
+  "value": 159.0
+ },
+ "tab.cmp.L_dev_abs_pct": {
+  "src": "absolute value",
+  "value": 1.7862205840658119
+ },
+ "tab.cmp.L_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": 1.7862205840658119
+ },
+ "tab.cmp.L_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 17.950000000000003
+ },
+ "tab.cmp.L_minus_M_meas_uH": {
+  "src": "L_meas - M_meas (10 kHz)",
+  "value": 1.6288000000000018
+ },
+ "tab.cmp.L_th": {
+  "src": "theory (values_theory.json)",
+  "value": 17.634999999999998
+ },
+ "tab.cmp.Laid_dev_abs_pct": {
+  "src": "absolute value",
+  "value": 0.7596785975164333
+ },
+ "tab.cmp.Laid_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": -0.7596785975164333
+ },
+ "tab.cmp.Laid_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 67.93
+ },
+ "tab.cmp.Laid_th": {
+  "src": "theory (values_theory.json)",
+  "value": 68.45
+ },
+ "tab.cmp.Lleak_dev_abs_pct": {
+  "src": "absolute value",
+  "value": 54.26622851116629
+ },
+ "tab.cmp.Lleak_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": 54.26622851116629
+ },
+ "tab.cmp.Lleak_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 3.108464504500001
+ },
+ "tab.cmp.Lleak_th": {
+  "src": "theory (values_theory.json)",
+  "value": 2.015
+ },
+ "tab.cmp.Lopp_dev_abs_pct": {
+  "src": "absolute value",
+  "value": 27.347135291285518
+ },
+ "tab.cmp.Lopp_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": 27.347135291285518
+ },
+ "tab.cmp.Lopp_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 2.645
+ },
+ "tab.cmp.Lopp_th": {
+  "src": "theory (values_theory.json)",
+  "value": 2.077
+ },
+ "tab.cmp.Lrec_oct_minus_nov_lo_uH": {
+  "src": "meas.L_oct_minus_nov_min_uH",
+  "value": 0.35
+ },
+ "tab.cmp.M_dev_abs_pct": {
+  "src": "absolute value",
+  "value": 1.6202531645569507
+ },
+ "tab.cmp.M_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": -1.6202531645569507
+ },
+ "tab.cmp.M_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 16.3212
+ },
+ "tab.cmp.M_th": {
+  "src": "theory (values_theory.json)",
+  "value": 16.59
+ },
+ "tab.cmp.R_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": 25.601374570446733
+ },
+ "tab.cmp.R_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 7.31
+ },
+ "tab.cmp.R_th": {
+  "src": "theory (values_theory.json)",
+  "value": 5.82
+ },
+ "tab.cmp.dL_abs_uH": {
+  "src": "L_meas - L_theory",
+  "value": 0.31500000000000483
+ },
+ "tab.cmp.k_dev_pct": {
+  "src": "measured/theory - 1",
+  "value": -3.379024545744347
+ },
+ "tab.cmp.k_diff": {
+  "src": "k_meas - k_theory",
+  "value": -0.03180000000000005
+ },
+ "tab.cmp.k_diff_abs": {
+  "src": "|k_meas - k_theory|",
+  "value": 0.03180000000000005
+ },
+ "tab.cmp.k_meas": {
+  "src": "measured (values_meas.json, 10 kHz where applicable)",
+  "value": 0.9093
+ },
+ "tab.cmp.k_th": {
+  "src": "theory (values_theory.json)",
+  "value": 0.9411
+ },
+ "tab.delta.k_corr_pair1_10k": {
+  "src": "M/sqrt((L_A-delta)(L_B-delta))",
+  "value": 0.9321552256115849
+ },
+ "tab.delta.k_corr_pair1_1k": {
+  "src": "M/sqrt((L_A-delta)(L_B-delta))",
+  "value": 0.9476744186046511
+ },
+ "tab.delta.k_corr_pair2_10k": {
+  "src": "M/sqrt((L_A-delta)(L_B-delta))",
+  "value": 0.9508317930861567
+ },
+ "tab.delta.k_corr_pair2_1k": {
+  "src": "M/sqrt((L_A-delta)(L_B-delta))",
+  "value": 0.9658753709198812
+ },
+ "tab.delta.pair1_10k_uH": {
+  "src": "-1/2[(L_aid+L_opp)-2(L_A+L_B)]",
+  "value": 0.4100000000000037
+ },
+ "tab.delta.pair1_1k_uH": {
+  "src": "-1/2[(L_aid+L_opp)-2(L_A+L_B)]",
+  "value": 0.6999999999999957
+ },
+ "tab.delta.pair2_10k_uH": {
+  "src": "-1/2[(L_aid+L_opp)-2(L_A+L_B)]",
+  "value": 0.8150000000000048
+ },
+ "tab.delta.pair2_1k_uH": {
+  "src": "-1/2[(L_aid+L_opp)-2(L_A+L_B)]",
+  "value": 1.0499999999999972
+ },
+ "tab.floor.L_nov_uH": {
+  "src": "mean open-circuit L, 10 kHz, November sheet",
+  "value": 17.950000000000003
+ },
+ "tab.geom.adj_len_m": {
+  "src": "theory.geom.adjacent_length_AD_mm / 1000",
+  "value": 5.694
+ },
+ "tab.geom.pitch_same_mm": {
+  "src": "2 x theory.geom.pitch_AD_mm",
+  "value": 1.016
+ },
+ "tab.k.D_opp_10k_hi": {
+  "src": "D = 2R/(omega L_opp), 10 kHz, c8",
+  "value": 93.07381072014039
+ },
+ "tab.k.D_opp_10k_lo": {
+  "src": "D = 2R/(omega L_opp), 10 kHz, c7",
+  "value": 83.39947197145197
+ },
+ "tab.k.L_aid_mean_10k": {
+  "src": "mean of c5, c6",
+  "value": 67.93
+ },
+ "tab.k.L_aid_mean_1k": {
+  "src": "mean of c5, c6",
+  "value": 67.5
+ },
+ "tab.k.L_opp_max_uH": {
+  "src": "max opposing reading",
+  "value": 2.79
+ },
+ "tab.k.L_opp_mean_10k": {
+  "src": "mean of c7, c8",
+  "value": 2.645
+ },
+ "tab.k.L_opp_mean_1k": {
+  "src": "mean of c7, c8",
+  "value": 2.35
+ },
+ "tab.k.L_opp_min_uH": {
+  "src": "min opposing reading",
+  "value": 2.2
+ },
+ "tab.k.Lp_1k_mH": {
+  "src": "meas.Lp_if_parallel_1k_uH in mH",
+  "value": 75.6353
+ },
+ "tab.k.Lp_min_1k_mH": {
+  "src": "meas.Lp_min_possible_1k_uH in mH",
+  "value": 2.3268
+ },
+ "tab.k.M_aid_c5_10k": {
+  "src": "(L_aid,c5 - L_A - L_B)/2",
+  "value": 16.145
+ },
+ "tab.k.M_aid_c5_1k": {
+  "src": "(L_aid,c5 - L_A - L_B)/2",
+  "value": 15.950000000000003
+ },
+ "tab.k.M_aid_c6_10k": {
+  "src": "(L_aid,c6 - L_A - L_B)/2",
+  "value": 15.885000000000002
+ },
+ "tab.k.M_aid_c6_1k": {
+  "src": "(L_aid,c6 - L_A - L_B)/2",
+  "value": 15.75
+ },
+ "tab.k.M_aid_mean_10k": {
+  "src": "mean",
+  "value": 16.015
+ },
+ "tab.k.M_aid_mean_1k": {
+  "src": "mean",
+  "value": 15.850000000000001
+ },
+ "tab.k.M_opp_c7_10k": {
+  "src": "(L_A + L_B - L_opp,c7)/2",
+  "value": 16.555000000000003
+ },
+ "tab.k.M_opp_c7_1k": {
+  "src": "(L_A + L_B - L_opp,c7)/2",
+  "value": 16.65
+ },
+ "tab.k.M_opp_c8_10k": {
+  "src": "(L_A + L_B - L_opp,c8)/2",
+  "value": 16.700000000000003
+ },
+ "tab.k.M_opp_c8_1k": {
+  "src": "(L_A + L_B - L_opp,c8)/2",
+  "value": 16.799999999999997
+ },
+ "tab.k.M_opp_mean_10k": {
+  "src": "mean",
+  "value": 16.627500000000005
+ },
+ "tab.k.M_opp_mean_1k": {
+  "src": "mean",
+  "value": 16.724999999999998
+ },
+ "tab.k.X_opp_10k_max_ohm": {
+  "src": "omega L_opp, 10 kHz, largest opposing reading",
+  "value": 0.17530087007031045
+ },
+ "tab.k.X_opp_min_ohm": {
+  "src": "opposing reactance, 1 kHz",
+  "value": 0.0148
+ },
+ "tab.k.Z_opp_10k_ohm": {
+  "src": "|Z| of the opposing connection, 10 kHz",
+  "value": 14.620944538560154
+ },
+ "tab.k.dL_short_meas_lo_uH": {
+  "src": "",
+  "value": 0.39
+ },
+ "tab.k.direct_hi": {
+  "src": "max of the direct (series-connection) estimates in Table IV(b)",
+  "value": 0.9344
+ },
+ "tab.k.direct_lo": {
+  "src": "min of the direct (series-connection) estimates in Table IV(b)",
+  "value": 0.8799
+ },
+ "tab.k.dk_dLaid_per_uH": {
+  "src": "dk/dL_aid per uH (pair method)",
+  "value": 0.013927578762979778
+ },
+ "tab.k.dk_dLopp_per_uH": {
+  "src": "dk/dL_opp per uH (pair method)",
+  "value": -0.013927578762979778
+ },
+ "tab.k.dk_dsingle_per_uH": {
+  "src": "dk/d(delta) for a common offset on L_A and L_B, per uH",
+  "value": -0.05065739733782243
+ },
+ "tab.k.n_1k": {
+  "src": "number of 1 kHz readings",
+  "value": 8
+ },
+ "tab.k.n_1k_last0": {
+  "src": "1 kHz readings whose 0.01 uH digit is 0",
+  "value": 8
+ },
+ "tab.k.pair_mean_absdiff": {
+  "src": "|k_pair_mean(1k) - k_pair_mean(10k)|",
+  "value": 0.0007
+ },
+ "tab.k.sumdev_max_pct": {
+  "src": "largest |sum-identity deviation|, pairs 1-2, 1 and 10 kHz",
+  "value": 2.93
+ },
+ "tab.k.sumdev_min_pct": {
+  "src": "smallest |sum-identity deviation|, pairs 1-2, 1 and 10 kHz",
+  "value": 1.14
+ },
+ "tab.k.w2LC_aid_10k_e5": {
+  "src": "meas.w2LC_aid_10k x 1e5",
+  "value": 7.3759999999999994
+ },
+ "tab.legend.Cu_um": {
+  "src": "theory.legend.bot_lines",
+  "value": 35.0
+ },
+ "tab.legend.DCR_hi_ohm": {
+  "src": "theory.legend.top_spec_line",
+  "value": 7.0
+ },
+ "tab.legend.DCR_lo_ohm": {
+  "src": "theory.legend.top_spec_line",
+  "value": 5.0
+ },
+ "tab.legend.k_hi": {
+  "src": "theory.legend.top_spec_line (Gerber legend, read)",
+  "value": 0.9
+ },
+ "tab.legend.k_lo": {
+  "src": "theory.legend.top_spec_line (Gerber legend, read)",
+  "value": 0.8
+ },
+ "tab.legend.len_AC_mm": {
+  "src": "theory.legend.bot_lines",
+  "value": 2999.0
+ },
+ "tab.legend.len_DC_mm": {
+  "src": "theory.legend.bot_lines",
+  "value": 3002.0
+ },
+ "tab.legend.tol_pct": {
+  "src": "theory.legend.top_tolerance_line",
+  "value": 15.0
+ },
+ "tab.nm.L_minus_M_uH": {
+  "src": "theory.L_A_uH - theory.M_uH",
+  "value": 1.0399999999999991
+ },
+ "tab.nm.L_num_unc_nH": {
+  "src": "theory.L_A_numerical_uncertainty_uH in nH",
+  "value": 7.6
+ },
+ "tab.nm.board_sens_pct": {
+  "src": "|L_A(1.6 mm board)/L_A(0.8 mm, fabricated) - 1|",
+  "value": 0.0566035780053431
+ },
+ "tab.nm.dL_w020t30_pct": {
+  "src": "L_A(w0.20,t30)/L_A - 1",
+  "value": 0.7373794668179334
+ },
+ "tab.nm.dk_w020t30": {
+  "src": "k(w0.20,t30) - k(drawn)",
+  "value": -0.007300000000000084
+ },
+ "tab.nm.dk_w020t30_abs": {
+  "src": "|k(w0.20,t30) - k(drawn)|",
+  "value": 0.007300000000000084
+ },
+ "tab.nm.top.L_A_uH": {
+  "src": "neumann_results.json variants.top_layer_only (AC)",
+  "value": 17.480390609590135
+ },
+ "tab.nm.top.L_B_uH": {
+  "src": "neumann_results.json variants.top_layer_only (DC)",
+  "value": 17.49799129344736
+ },
+ "tab.nm.top.M_uH": {
+  "src": "neumann_results.json variants.top_layer_only",
+  "value": 16.48978611984836
+ },
+ "tab.nm.top.k": {
+  "src": "neumann_results.json variants.top_layer_only",
+  "value": 0.9428559761939282
+ },
+ "tab.nm.w020t30.L_opp_uH": {
+  "src": "neumann_results.json sensitivity_w_t w=0.20 t=30",
+  "value": 2.3541186844262714
+ },
+ "tab.nm.w020t35.L_A_uH": {
+  "src": "neumann_results.json sensitivity_w_t w=0.20 t=35",
+  "value": 17.749313068806934
+ },
+ "tab.nm.w020t35.k": {
+  "src": "neumann_results.json sensitivity_w_t w=0.20 t=35",
+  "value": 0.9344360417402289
+ },
+ "tab.peec.C_central_pF": {
+  "src": "values_peec_check.json interwinding_capacitance",
+  "value": 156.0
+ },
+ "tab.peec.C_hi_pF": {
+  "src": "values_peec_check.json interwinding_capacitance",
+  "value": 230.6
+ },
+ "tab.peec.C_lo_pF": {
+  "src": "values_peec_check.json interwinding_capacitance",
+  "value": 134.7
+ },
+ "tab.peec.R_A_p2p_ohm": {
+  "src": "values_peec_check.json AC winding R pad-to-pad",
+  "value": 5.8257
+ },
+ "tab.peec.ac_label": {
+  "src": "PEEC winding label that is the AC winding (length match)",
+  "value": "B"
+ },
+ "tab.peec.dk_p2p": {
+  "src": "|k_V2 - k_A2|, pad to pad",
+  "value": 0.00034999999999996145
+ },
+ "tab.peec.dk_top": {
+  "src": "|k_V2 - k_A2|, top layer",
+  "value": 0.0006440238060717585
+ },
+ "tab.peec.maxdev_p2p_pct": {
+  "src": "max |PEEC/Neumann-1| over L_A, L_B, M, pad to pad",
+  "value": 0.0934297769740855
+ },
+ "tab.peec.maxdev_top_disp_pct": {
+  "src": "max |PEEC/Neumann-1| over L_A, L_B, M (top layer), from the Table II values rounded to 0.01 uH",
+  "value": 0.181928441479684
+ },
+ "tab.peec.maxdev_top_pct": {
+  "src": "max |PEEC/Neumann-1| over L_A, L_B, M, top layer",
+  "value": 0.15593822724411233
+ },
+ "tab.peec.p2p.L_A_uH": {
+  "src": "values_peec_check.json inductance_pad_to_pad_incl_bottom_leads_and_vias_1.6mm_board LB (AC)",
+  "value": 17.6293
+ },
+ "tab.peec.p2p.L_B_uH": {
+  "src": "values_peec_check.json inductance_pad_to_pad_incl_bottom_leads_and_vias_1.6mm_board LA (DC)",
+  "value": 17.647
+ },
+ "tab.peec.p2p.M_uH": {
+  "src": "values_peec_check.json inductance_pad_to_pad_incl_bottom_leads_and_vias_1.6mm_board",
+  "value": 16.6055
+ },
+ "tab.peec.p2p.k": {
+  "src": "values_peec_check.json inductance_pad_to_pad_incl_bottom_leads_and_vias_1.6mm_board",
+  "value": 0.94145
+ },
+ "tab.peec.top.L_A_uH": {
+  "src": "values_peec_check.json inductance_top_layer_only LB (AC)",
+  "value": 17.4936
+ },
+ "tab.peec.top.L_B_uH": {
+  "src": "values_peec_check.json inductance_top_layer_only LA (DC)",
+  "value": 17.5155
+ },
+ "tab.peec.top.M_uH": {
+  "src": "values_peec_check.json inductance_top_layer_only",
+  "value": 16.5155
+ },
+ "tab.peec.top.k": {
+  "src": "values_peec_check.json inductance_top_layer_only",
+  "value": 0.9435
+ },
+ "tab.rho_nOhm_m": {
+  "src": "theory.rho_Cu_ohm_m in nOhm m (IACS, 20 C)",
+  "value": 17.240000000000002
+ },
+ "tab.spec.lcr.Lmin_uH_inferred": {
+  "src": "MECO LCR999A catalogue sheet via data/instrument_specs.md (published figure, not computed)",
+  "value": 4
+ },
+ "tab.spec.lcr.Rsrc_ohm": {
+  "src": "MECO LCR999A catalogue sheet via data/instrument_specs.md (published figure, not computed)",
+  "value": 100
+ },
+ "tab.spec.lcr.Vrms": {
+  "src": "MECO LCR999A catalogue sheet via data/instrument_specs.md (published figure, not computed)",
+  "value": 0.6
+ },
+ "tab.spec.lcr.Zmin_ohm": {
+  "src": "MECO LCR999A catalogue sheet via data/instrument_specs.md (published figure, not computed)",
+  "value": 0.4
+ },
+ "tab.spec.lcr.acc_pct": {
+  "src": "MECO LCR999A catalogue sheet via data/instrument_specs.md (published figure, not computed)",
+  "value": 0.1
+ },
+ "tab.split.k_aid": {
+  "src": "k change from measured L_aid only",
+  "value": -0.007371704294028558
+ },
+ "tab.split.k_aid_abs": {
+  "src": "absolute value",
+  "value": 0.007371704294028558
+ },
+ "tab.split.k_opp": {
+  "src": "k change from measured L_opp only",
+  "value": -0.008052169305785117
+ },
+ "tab.split.k_opp_abs": {
+  "src": "absolute value",
+  "value": 0.008052169305785117
+ },
+ "tab.split.k_single": {
+  "src": "k change from measured L_A, L_B only",
+  "value": -0.01651198612543736
+ },
+ "tab.split.k_single_abs": {
+  "src": "absolute value",
+  "value": 0.01651198612543736
+ },
+ "tab.srf.qw_meas_Lopp_Cmeas_MHz": {
+  "src": "1/(4 sqrt(L_opp,meas C_AB,meas))",
+  "value": 9.286496279530011
+ },
+ "tab.srf.qw_th_Lopp_Cmeas_MHz": {
+  "src": "1/(4 sqrt(L_opp,theory C_AB,meas))",
+  "value": 10.479642777769167
+ },
+ "tab.tbl.k_p2p": {
+  "src": "theory.k (table alias, 3 decimals)",
+  "value": 0.9411
+ },
+ "tab.tbl.k_w020t30": {
+  "src": "theory.k_w0p20_t30 (table alias)",
+  "value": 0.9338
+ },
+ "tab.txt.k_short_10k": {
+  "src": "meas.k_from_short_B_10k (text alias, 2 decimals)",
+  "value": 0.9669
+ }
+}

@@ -1,0 +1,777 @@
+{
+ "R04": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.17 PM.jpeg",
+  "sno": [],
+  "time_per_div_s": 1e-05,
+  "V_per_div": 10.0,
+  "period_div": 1.0005,
+  "freq_from_screen_hz": 99950.0,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": 0.315,
+  "pkpk_div_upper": 0.498,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 3.15,
+  "Vpp_displayed_upper": 4.98,
+  "fit_pkpk_div": 0.311,
+  "fit_rms_resid_div": 0.049,
+  "line_width_div": 0.19,
+  "cycles_on_screen": 11.66,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R05": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.17 PM (1).jpeg",
+  "sno": [],
+  "time_per_div_s": 1e-05,
+  "V_per_div": 10.0,
+  "period_div": 1.002,
+  "freq_from_screen_hz": 99800.0,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": 0.314,
+  "pkpk_div_upper": 0.413,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 3.14,
+  "Vpp_displayed_upper": 4.13,
+  "fit_pkpk_div": 0.315,
+  "fit_rms_resid_div": 0.056,
+  "line_width_div": 0.14,
+  "cycles_on_screen": 11.71,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R06": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.17 PM (2).jpeg",
+  "sno": [],
+  "time_per_div_s": 1e-05,
+  "V_per_div": 10.0,
+  "period_div": 0.5009,
+  "freq_from_screen_hz": 199641.0,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": 0.527,
+  "pkpk_div_upper": 0.658,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 5.27,
+  "Vpp_displayed_upper": 6.58,
+  "fit_pkpk_div": 0.474,
+  "fit_rms_resid_div": 0.055,
+  "line_width_div": 0.126,
+  "cycles_on_screen": 23.39,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R07": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.18 PM.jpeg",
+  "sno": [],
+  "time_per_div_s": 2e-06,
+  "V_per_div": 10.0,
+  "period_div": 1.6639,
+  "freq_from_screen_hz": 300499.0,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": 0.718,
+  "pkpk_div_upper": 0.882,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 7.18,
+  "Vpp_displayed_upper": 8.82,
+  "fit_pkpk_div": 0.73,
+  "fit_rms_resid_div": 0.027,
+  "line_width_div": 0.179,
+  "cycles_on_screen": 6.99,
+  "confidence": "high",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R08": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.18 PM (1).jpeg",
+  "sno": [],
+  "time_per_div_s": 2e-06,
+  "V_per_div": 10.0,
+  "period_div": 1.2531,
+  "freq_from_screen_hz": 399010.0,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": 0.817,
+  "pkpk_div_upper": 1.033,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 8.17,
+  "Vpp_displayed_upper": 10.33,
+  "fit_pkpk_div": 0.808,
+  "fit_rms_resid_div": 0.056,
+  "line_width_div": 0.201,
+  "cycles_on_screen": 9.45,
+  "confidence": "high",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R09": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.19 PM.jpeg",
+  "sno": [],
+  "time_per_div_s": 2e-06,
+  "V_per_div": 10.0,
+  "period_div": 0.9985,
+  "freq_from_screen_hz": 500751.0,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": 1.017,
+  "pkpk_div_upper": 1.1,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 10.17,
+  "Vpp_displayed_upper": 11.0,
+  "fit_pkpk_div": 0.806,
+  "fit_rms_resid_div": 0.107,
+  "line_width_div": 0.173,
+  "cycles_on_screen": 11.72,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R10": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.19 PM (1).jpeg",
+  "sno": [
+   11
+  ],
+  "time_per_div_s": 2e-06,
+  "V_per_div": 10.0,
+  "period_div": 0.4984,
+  "freq_from_screen_hz": 1003210.0,
+  "freq_dev_pct": 0.0,
+  "pkpk_div_centre": 1.222,
+  "pkpk_div_upper": 1.322,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 12.22,
+  "Vpp_displayed_upper": 13.22,
+  "fit_pkpk_div": 0.954,
+  "fit_rms_resid_div": 0.112,
+  "line_width_div": 0.142,
+  "cycles_on_screen": 23.41,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R12": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.20 PM.jpeg",
+  "sno": [
+   12
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 10.0,
+  "period_div": 1.6779,
+  "freq_from_screen_hz": 2979915.0,
+  "freq_dev_pct": -0.7,
+  "pkpk_div_centre": 1.567,
+  "pkpk_div_upper": 1.763,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 15.67,
+  "Vpp_displayed_upper": 17.63,
+  "fit_pkpk_div": 1.712,
+  "fit_rms_resid_div": 0.059,
+  "line_width_div": 0.169,
+  "cycles_on_screen": 6.95,
+  "confidence": "high",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R14": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.21 PM.jpeg",
+  "sno": [
+   13
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 10.0,
+  "period_div": 1.2523,
+  "freq_from_screen_hz": 3992654.0,
+  "freq_dev_pct": -0.2,
+  "pkpk_div_centre": 1.603,
+  "pkpk_div_upper": 1.785,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 16.03,
+  "Vpp_displayed_upper": 17.85,
+  "fit_pkpk_div": 1.663,
+  "fit_rms_resid_div": 0.047,
+  "line_width_div": 0.126,
+  "cycles_on_screen": 9.36,
+  "confidence": "high",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "R16": {
+  "path": "new reults/WhatsApp Image 2026-10-22 at 6.19.23 PM.jpeg",
+  "sno": [
+   14
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 10.0,
+  "period_div": 0.962,
+  "freq_from_screen_hz": 5197505.0,
+  "freq_dev_pct": 0.3,
+  "pkpk_div_centre": 2.475,
+  "pkpk_div_upper": 2.639,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 24.75,
+  "Vpp_displayed_upper": 26.39,
+  "fit_pkpk_div": 2.33,
+  "fit_rms_resid_div": 0.176,
+  "line_width_div": 0.166,
+  "cycles_on_screen": 11.93,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X01": {
+  "path": "test workbook images/image1.png",
+  "sno": [
+   1
+  ],
+  "time_per_div_s": 5e-08,
+  "V_per_div": 10.0,
+  "period_div": 2.6738,
+  "freq_from_screen_hz": 7479991.0,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": 0.571,
+  "pkpk_div_upper": 0.8,
+  "upper_source": "largest burst excursion (centre line max-min)",
+  "Vpp_displayed": 5.71,
+  "Vpp_displayed_upper": 8.0,
+  "fit_pkpk_div": 0.449,
+  "fit_rms_resid_div": 0.113,
+  "line_width_div": 0.128,
+  "cycles_on_screen": 4.39,
+  "confidence": "low",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X02": {
+  "path": "test workbook images/image2.png",
+  "sno": [
+   2
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 20.0,
+  "period_div": 7.2727,
+  "freq_from_screen_hz": null,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": null,
+  "pkpk_div_upper": 0.417,
+  "upper_source": "centre-line excursion (not a sine)",
+  "Vpp_displayed": null,
+  "Vpp_displayed_upper": 8.34,
+  "fit_pkpk_div": 0.514,
+  "fit_rms_resid_div": 0.583,
+  "line_width_div": 0.1,
+  "cycles_on_screen": 1.59,
+  "confidence": "low",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X03": {
+  "path": "test workbook images/image3.png",
+  "sno": [
+   3
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": null,
+  "period_div": 20.0,
+  "freq_from_screen_hz": null,
+  "freq_dev_pct": null,
+  "pkpk_div_centre": null,
+  "pkpk_div_upper": 0.257,
+  "upper_source": "centre-line excursion (not a sine)",
+  "Vpp_displayed": null,
+  "Vpp_displayed_upper": null,
+  "fit_pkpk_div": 0.173,
+  "fit_rms_resid_div": 0.028,
+  "line_width_div": 0.109,
+  "cycles_on_screen": 0.56,
+  "confidence": "low",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X04": {
+  "path": "test workbook images/image4.png",
+  "sno": [
+   5
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 20.0,
+  "period_div": 1.0096,
+  "freq_from_screen_hz": 4952456.0,
+  "freq_dev_pct": -1.1,
+  "pkpk_div_centre": 1.15,
+  "pkpk_div_upper": 1.35,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 23.0,
+  "Vpp_displayed_upper": 27.0,
+  "fit_pkpk_div": 1.01,
+  "fit_rms_resid_div": 0.121,
+  "line_width_div": 0.219,
+  "cycles_on_screen": 11.67,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X05": {
+  "path": "test workbook images/image5.png",
+  "sno": [
+   4,
+   15
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 20.0,
+  "period_div": 4.8193,
+  "freq_from_screen_hz": 1037495.0,
+  "freq_dev_pct": 2.0,
+  "pkpk_div_centre": 0.583,
+  "pkpk_div_upper": 0.664,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 11.66,
+  "Vpp_displayed_upper": 13.28,
+  "fit_pkpk_div": 0.579,
+  "fit_rms_resid_div": 0.029,
+  "line_width_div": 0.093,
+  "cycles_on_screen": 2.31,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X06": {
+  "path": "test workbook images/image6.png",
+  "sno": [
+   6
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 20.0,
+  "period_div": 1.6461,
+  "freq_from_screen_hz": 3037483.0,
+  "freq_dev_pct": 1.0,
+  "pkpk_div_centre": 0.82,
+  "pkpk_div_upper": 0.904,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 16.4,
+  "Vpp_displayed_upper": 18.08,
+  "fit_pkpk_div": 0.857,
+  "fit_rms_resid_div": 0.035,
+  "line_width_div": 0.096,
+  "cycles_on_screen": 7.02,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X07": {
+  "path": "test workbook images/image7.png",
+  "sno": [
+   7
+  ],
+  "time_per_div_s": 2e-07,
+  "V_per_div": 20.0,
+  "period_div": 1.2415,
+  "freq_from_screen_hz": 4027386.0,
+  "freq_dev_pct": 0.7,
+  "pkpk_div_centre": 0.882,
+  "pkpk_div_upper": 0.98,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 17.64,
+  "Vpp_displayed_upper": 19.6,
+  "fit_pkpk_div": 0.896,
+  "fit_rms_resid_div": 0.077,
+  "line_width_div": 0.089,
+  "cycles_on_screen": 9.34,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X08": {
+  "path": "test workbook images/image8.png",
+  "sno": [
+   8
+  ],
+  "time_per_div_s": 5e-07,
+  "V_per_div": 10.0,
+  "period_div": 3.9761,
+  "freq_from_screen_hz": 503005.0,
+  "freq_dev_pct": 0.6,
+  "pkpk_div_centre": 0.932,
+  "pkpk_div_upper": 1.059,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 9.32,
+  "Vpp_displayed_upper": 10.59,
+  "fit_pkpk_div": 0.935,
+  "fit_rms_resid_div": 0.038,
+  "line_width_div": 0.172,
+  "cycles_on_screen": 2.43,
+  "confidence": "medium",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X09": {
+  "path": "test workbook images/image9.png",
+  "sno": [
+   9
+  ],
+  "time_per_div_s": 2e-05,
+  "V_per_div": 10.0,
+  "period_div": 0.4793,
+  "freq_from_screen_hz": 104319.0,
+  "freq_dev_pct": 1.2,
+  "pkpk_div_centre": 0.208,
+  "pkpk_div_upper": 0.304,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 2.08,
+  "Vpp_displayed_upper": 3.04,
+  "fit_pkpk_div": 0.201,
+  "fit_rms_resid_div": 0.024,
+  "line_width_div": 0.088,
+  "cycles_on_screen": 7.78,
+  "confidence": "low",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "X10": {
+  "path": "test workbook images/image10.png",
+  "sno": [
+   10
+  ],
+  "time_per_div_s": 2e-05,
+  "V_per_div": 10.0,
+  "period_div": 1.0947,
+  "freq_from_screen_hz": 45675.0,
+  "freq_dev_pct": 1.5,
+  "pkpk_div_centre": 0.09,
+  "pkpk_div_upper": 0.164,
+  "upper_source": "outer-edge median",
+  "Vpp_displayed": 0.9,
+  "Vpp_displayed_upper": 1.64,
+  "fit_pkpk_div": 0.071,
+  "fit_rms_resid_div": 0.015,
+  "line_width_div": 0.094,
+  "cycles_on_screen": 10.52,
+  "confidence": "low",
+  "label": "[MEASURED] screen text transcribed; [CALCULATED] pk-pk div from pixels (measure_out_all.json) x V/div as displayed; no probe correction"
+ },
+ "_dc_level_inference": {
+  "X04": {
+   "marker_div_below_trace": 2.43,
+   "implied_displayed_dc_V": 48.6
+  },
+  "X05": {
+   "marker_div_below_trace": 2.63,
+   "implied_displayed_dc_V": 52.5
+  },
+  "X06": {
+   "marker_div_below_trace": 2.48,
+   "implied_displayed_dc_V": 49.6
+  },
+  "X07": {
+   "marker_div_below_trace": 2.79,
+   "implied_displayed_dc_V": 55.7
+  },
+  "X03": {
+   "marker_div_below_trace": 2.3,
+   "implied_displayed_dc_V_if_20Vdiv": 46.0,
+   "note": "V/div unreadable; raw px 620 (marker) vs 499 (trace), 52.58 px/div"
+  },
+  "R_all": {
+   "trace_centre_div_above_bottom_min": 3.657,
+   "trace_centre_div_above_bottom_max": 4.045,
+   "implied_displayed_dc_lower_bound_V": 36.6,
+   "note": "10 V/div: CH2 ground marker pinned at the bottom edge (off-screen below), so ground is more than the trace height above the bottom below the trace -> displayed DC level > ~37-40 V; consistent with the 48.8 V trigger level sitting on the trace"
+  },
+  "X01": {
+   "note": "CH1 ground marker pinned at TOP edge; trigger level -49.6 V sits on the trace -> displayed DC level negative (~ -50 V)"
+  }
+ },
+ "_summary_by_frequency": [
+  {
+   "sno": 1,
+   "freq": "100.1 Hz",
+   "key": "X01",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.571,
+   "pkpk_div_upper": 0.8,
+   "Vpp_displayed": 5.71,
+   "Vpp_upper": 8.0,
+   "freq_from_screen_hz": 7479991.0
+  },
+  {
+   "sno": 2,
+   "freq": "501 KHz",
+   "key": "X02",
+   "V_per_div": 20.0,
+   "pkpk_div_centre": null,
+   "pkpk_div_upper": 0.417,
+   "Vpp_displayed": null,
+   "Vpp_upper": 8.34,
+   "freq_from_screen_hz": null
+  },
+  {
+   "sno": 3,
+   "freq": "1007 KHz",
+   "key": "X03",
+   "V_per_div": null,
+   "pkpk_div_centre": null,
+   "pkpk_div_upper": 0.257,
+   "Vpp_displayed": null,
+   "Vpp_upper": null,
+   "freq_from_screen_hz": null
+  },
+  {
+   "sno": 4,
+   "freq": "1017 KHz",
+   "key": "X05",
+   "V_per_div": 20.0,
+   "pkpk_div_centre": 0.583,
+   "pkpk_div_upper": 0.664,
+   "Vpp_displayed": 11.66,
+   "Vpp_upper": 13.28,
+   "freq_from_screen_hz": 1037495.0
+  },
+  {
+   "sno": 5,
+   "freq": "5010 KHz",
+   "key": "X04",
+   "V_per_div": 20.0,
+   "pkpk_div_centre": 1.15,
+   "pkpk_div_upper": 1.35,
+   "Vpp_displayed": 23.0,
+   "Vpp_upper": 27.0,
+   "freq_from_screen_hz": 4952456.0
+  },
+  {
+   "sno": 6,
+   "freq": "3006KHz",
+   "key": "X06",
+   "V_per_div": 20.0,
+   "pkpk_div_centre": 0.82,
+   "pkpk_div_upper": 0.904,
+   "Vpp_displayed": 16.4,
+   "Vpp_upper": 18.08,
+   "freq_from_screen_hz": 3037483.0
+  },
+  {
+   "sno": 7,
+   "freq": "4001 KHz",
+   "key": "X07",
+   "V_per_div": 20.0,
+   "pkpk_div_centre": 0.882,
+   "pkpk_div_upper": 0.98,
+   "Vpp_displayed": 17.64,
+   "Vpp_upper": 19.6,
+   "freq_from_screen_hz": 4027386.0
+  },
+  {
+   "sno": 8,
+   "freq": "500KHz",
+   "key": "X08",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.932,
+   "pkpk_div_upper": 1.059,
+   "Vpp_displayed": 9.32,
+   "Vpp_upper": 10.59,
+   "freq_from_screen_hz": 503005.0
+  },
+  {
+   "sno": 9,
+   "freq": "103.1KHz",
+   "key": "X09",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.208,
+   "pkpk_div_upper": 0.304,
+   "Vpp_displayed": 2.08,
+   "Vpp_upper": 3.04,
+   "freq_from_screen_hz": 104319.0
+  },
+  {
+   "sno": 10,
+   "freq": "45 KHz",
+   "key": "X10",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.09,
+   "pkpk_div_upper": 0.164,
+   "Vpp_displayed": 0.9,
+   "Vpp_upper": 1.64,
+   "freq_from_screen_hz": 45675.0
+  },
+  {
+   "sno": 11,
+   "freq": "1003KHz",
+   "key": "R10",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 1.222,
+   "pkpk_div_upper": 1.322,
+   "Vpp_displayed": 12.22,
+   "Vpp_upper": 13.22,
+   "freq_from_screen_hz": 1003210.0
+  },
+  {
+   "sno": 12,
+   "freq": "3000KHz",
+   "key": "R12",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 1.567,
+   "pkpk_div_upper": 1.763,
+   "Vpp_displayed": 15.67,
+   "Vpp_upper": 17.63,
+   "freq_from_screen_hz": 2979915.0
+  },
+  {
+   "sno": 13,
+   "freq": "4001KHz",
+   "key": "R14",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 1.603,
+   "pkpk_div_upper": 1.785,
+   "Vpp_displayed": 16.03,
+   "Vpp_upper": 17.85,
+   "freq_from_screen_hz": 3992654.0
+  },
+  {
+   "sno": 14,
+   "freq": "5182KHz",
+   "key": "R16",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 2.475,
+   "pkpk_div_upper": 2.639,
+   "Vpp_displayed": 24.75,
+   "Vpp_upper": 26.39,
+   "freq_from_screen_hz": 5197505.0
+  },
+  {
+   "sno": 15,
+   "freq": "2015KHz",
+   "key": null,
+   "note": "no own photo: xlsx reuses image5 (X05), whose screen shows ~1.04 MHz"
+  },
+  {
+   "sno": null,
+   "freq": "unlisted",
+   "key": "R05",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.314,
+   "pkpk_div_upper": 0.413,
+   "Vpp_displayed": 3.14,
+   "Vpp_upper": 4.13,
+   "freq_from_screen_hz": 99800.0
+  },
+  {
+   "sno": null,
+   "freq": "unlisted",
+   "key": "R06",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.527,
+   "pkpk_div_upper": 0.658,
+   "Vpp_displayed": 5.27,
+   "Vpp_upper": 6.58,
+   "freq_from_screen_hz": 199641.0
+  },
+  {
+   "sno": null,
+   "freq": "unlisted",
+   "key": "R07",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.718,
+   "pkpk_div_upper": 0.882,
+   "Vpp_displayed": 7.18,
+   "Vpp_upper": 8.82,
+   "freq_from_screen_hz": 300499.0
+  },
+  {
+   "sno": null,
+   "freq": "unlisted",
+   "key": "R08",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 0.817,
+   "pkpk_div_upper": 1.033,
+   "Vpp_displayed": 8.17,
+   "Vpp_upper": 10.33,
+   "freq_from_screen_hz": 399010.0
+  },
+  {
+   "sno": null,
+   "freq": "unlisted",
+   "key": "R09",
+   "V_per_div": 10.0,
+   "pkpk_div_centre": 1.017,
+   "pkpk_div_upper": 1.1,
+   "Vpp_displayed": 10.17,
+   "Vpp_upper": 11.0,
+   "freq_from_screen_hz": 500751.0
+  }
+ ],
+ "_exports": {
+  "X01": {
+   "dst": "photos/E-scope-oct22-100.1Hz.jpg",
+   "sha256": "f9df7bded50fd5a1d4247474fcc35628f155c43023af1183a06bc3cc82e681f6",
+   "src_sha256": "f98d0841c5da59be39df45d339762979b828bd214d1fe2d9f8beb2cb65706cca"
+  },
+  "X02": {
+   "dst": "photos/E-scope-oct22-501kHz.jpg",
+   "sha256": "80fd6f97fa44855deb66166599815871b35a0695f7b45d554552bb01d0f12524",
+   "src_sha256": "4c6d5eba490e062e5376fe2552fd0ee379a1a9c9eee56018cc527cd3f66096de"
+  },
+  "X03": {
+   "dst": "photos/E-scope-oct22-1007kHz.jpg",
+   "sha256": "6e4f8b29383756977fc27f7fce38a15a113d8e97806c3f3f500c1710c29ae82c",
+   "src_sha256": "2c9c0b810f5a7c23c32115e09b84a1ef33a61385542870984b2dabc7815679d2"
+  },
+  "X05": {
+   "dst": "photos/E-scope-oct22-1017kHz.jpg",
+   "sha256": "ade8408a22c89436ee79049db0879bb9d177da23750334b3d6011c44230eb4fc",
+   "src_sha256": "1a2b1206cad29334c396f567a107bf9bad26679d21cbc5f6d81c23c84778dfdd"
+  },
+  "X04": {
+   "dst": "photos/E-scope-oct22-5010kHz.jpg",
+   "sha256": "0cd64738e0640090bbe3a23d569c1d7a66a4556a4bf9099734f1a68da4d139f2",
+   "src_sha256": "7fd95dd8d1e44ad528273264a9ad970f6c3712a04fbf6ce9eed6d39a309aa438"
+  },
+  "X06": {
+   "dst": "photos/E-scope-oct22-3006kHz.jpg",
+   "sha256": "c3677d6e3606cbf94c8d1d434c1d6d1ce6ed8902a332afcfd590a2493452ddda",
+   "src_sha256": "0d3e35acead2374f1b16079e53d23e0548ad7d34d46ab14da59134ad744f0bf4"
+  },
+  "X07": {
+   "dst": "photos/E-scope-oct22-4001kHz-s07.jpg",
+   "sha256": "b507e10b1f2af0487be4dd2b6e5869d2e67f50a56e576fed860d9aa2df57790f",
+   "src_sha256": "ec912e93d4eb19254137dc0b3b94815c3db71dc43d268ee3edbde23581ce3dc0"
+  },
+  "X08": {
+   "dst": "photos/E-scope-oct22-500kHz.jpg",
+   "sha256": "c80d9064910a9770f41fa64f6089b2d5fd6ad04d2a2bca0b890f7dc612bb02aa",
+   "src_sha256": "7561d59545d1a98581ad19784bc17bd4e8ec3578fb35f9fee37ec3fdc7e77a07"
+  },
+  "X09": {
+   "dst": "photos/E-scope-oct22-103.1kHz.jpg",
+   "sha256": "ce7e6ef64f443207708a529746d340e63a84b41070e7196431cb9dca1bed2c88",
+   "src_sha256": "96f49f3ce614ae8d330f57f57ab8c7c7e97dd5ee3ea141ba9d19656b41c4950e"
+  },
+  "X10": {
+   "dst": "photos/E-scope-oct22-45kHz.jpg",
+   "sha256": "db5188347d042c883c71ae0a090a47202fa3e6e169e7d5964ad90292524b39b7",
+   "src_sha256": "59eb6542d6bf01a96a14af5b7740b586658d51d16bf9263a08e826ad44997232"
+  },
+  "R10": {
+   "dst": "photos/E-scope-oct22-1003kHz.jpg",
+   "sha256": "6a1ea7e5570c67b1580f601ec210d4cb686b0662b5656b3261ea5f2a004378c9",
+   "src_sha256": "51e0d91bb9a1f8fb4c4364ee97a764ed71e7b4012ce1321bd41ad65c76bc88a6"
+  },
+  "R12": {
+   "dst": "photos/E-scope-oct22-3000kHz.jpg",
+   "sha256": "34f3a27c9dc3f8b942223ccf8e54342088745cf7c00f1cd8420fd09ef3e98c72",
+   "src_sha256": "8f44916693cbc9aa302773ea9df1832ca6f79a4bc96daa142ac62cccd7bdbb6b"
+  },
+  "R14": {
+   "dst": "photos/E-scope-oct22-4001kHz-s13.jpg",
+   "sha256": "467e127b19f6edd83075cb9034aec941aa8e1e1d15e789c8af80b04292a85a5e",
+   "src_sha256": "f0aa2db17b4369dc0fda5005cb27d8d02e290cefc4eb7d0608481d34471ef77d"
+  },
+  "R16": {
+   "dst": "photos/E-scope-oct22-5182kHz.jpg",
+   "sha256": "f0bf226f02cf49d6c968c804180161e49718e7846e4341f1ceee1ab4e7f9d772",
+   "src_sha256": "2e425b6646bbbcd03e5200f1134b75f1e236a9e8bc5909d539d8ae61df3c8d54"
+  },
+  "R05": {
+   "dst": "photos/E-scope-oct22-unlisted-100kHz-R05.jpg",
+   "sha256": "ee2abd191e6f12b4475e448f1b654cf0fef669c74b4dfa4771d386eb3203164c",
+   "src_sha256": "1e51dfae59d213915abaa06dc457768a1353f7db080e5b8814e653af7ea0bdcc"
+  },
+  "R06": {
+   "dst": "photos/E-scope-oct22-unlisted-200kHz-R06.jpg",
+   "sha256": "bd75875a68d5a2a2906e4928734114e96e49d19dc37e09c8561511f0f3795852",
+   "src_sha256": "663765a9e6cb704da95c334d87c1178b9c48d1553390fb62f9cf99ec1dd842c1"
+  },
+  "R07": {
+   "dst": "photos/E-scope-oct22-unlisted-300kHz-R07.jpg",
+   "sha256": "d8b5674b3e33c1c7d03a5152b7cf060dfa3427dac628ce7f14b8a2baecd6e2d5",
+   "src_sha256": "218b30bcef7314f00ead000bac79df4640efe34bc63db3b6da2fc7e4cbfb2548"
+  },
+  "R08": {
+   "dst": "photos/E-scope-oct22-unlisted-400kHz-R08.jpg",
+   "sha256": "016eb6d0359b8ea392794ee8a260b6b73a9c2f2a18099f2504ff81fa955a7ad9",
+   "src_sha256": "52c0ea08e262d95aeaf2e139c96c5a316f05cc2e35bec127053406ba05aaacd3"
+  },
+  "R09": {
+   "dst": "photos/E-scope-oct22-unlisted-500kHz-R09.jpg",
+   "sha256": "117aeab2dee1611837b49747ab54830261046675ab699320af33b2e888b3fdae",
+   "src_sha256": "bbac3b3a73fbb28b09580cda49e4d719bdbd264dbe698633181b70c04932a613"
+  }
+ }
+}

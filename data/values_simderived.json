@@ -1,0 +1,6 @@
+{
+ "sim.M0_peak_f_MHz": 3.63,
+ "sim.M2_f3dB_kHz": 330,
+ "sim.M3_vs_M2_absdiff_1MHz_dB": 0.02,
+ "sim.M3_first_pole_MHz": 8.25
+}

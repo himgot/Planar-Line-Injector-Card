@@ -1,0 +1,30 @@
+parameter,value,unit,label,method_source
+board outline W x H,85.598 x 53.975,mm,[DESIGN],card_profile.gbr extents
+outline corner radius,2.87,mm,[DESIGN],card_profile.gbr straight-edge start points
+drawn trace width (D12),0.254,mm,[DESIGN],"card_copper_signal_top.gbr %ADD12C,0.010000*%"
+centre pitch A-D (adjacent conductors),0.508,mm,[CALCULATED],"median spacing of centreline crossings, vertical scan through body centre"
+pitch within one winding,1.016,mm,[CALCULATED],2 x A-D pitch
+drawn edge gap A-D,0.254,mm,[CALCULATED],pitch - drawn width
+min centreline distance A-D (whole board),0.483,mm,[CALCULATED],"segment-segment distance, DP 0.3 mil polylines"
+min drawn edge gap A-D,0.229,mm,[CALCULATED],min centreline distance - drawn width
+spiral body outer copper W x H,66.27 x 48.26,mm,[CALCULATED],bbox of centrelines + drawn width
+inner hole (centreline) W x H,20.16 x 1.21,mm,[CALCULATED],largest crossing gap in horizontal/vertical scans
+AC winding terminals (outer -> inner),AC_RTN -> AC_IN,-,[CALCULATED],chain connectivity + via + bottom route; legend label nearest pad
+AC top-layer length (raw Gerber vertices),2947.8,mm,[CALCULATED],"sum of segment lengths, 1-mil-quantised arc vertices"
+AC top-layer length (DP 1.0 mil),2943.4,mm,[CALCULATED],Douglas-Peucker 1.0 mil (> 0.71 mil max vertex-rounding jitter) removes 1-mil grid zig-zag on arcs
+AC bottom-layer route length,56.4,mm,[CALCULATED],card_copper_signal_bot.gbr D12 route via->pad
+AC total length (DP 1.0 mil top + bottom),2999.7,mm,[CALCULATED],excludes 1.6 mm via barrel
+AC turns (winding angle outer->inner / 360),23.44,turns,[CALCULATED],"unwrapped polar angle about body centre, pad to via"
+AC sense outer->inner,clockwise (viewed from top),-,[CALCULATED],sign of winding angle
+AC body centreline extents,65.51 x 47.50,mm,[CALCULATED],"bbox of chain inside x in [0.30,3.05] in"
+DC winding terminals (outer -> inner),DC_IN -> OUT,-,[CALCULATED],chain connectivity + via + bottom route; legend label nearest pad
+DC top-layer length (raw Gerber vertices),2950.7,mm,[CALCULATED],"sum of segment lengths, 1-mil-quantised arc vertices"
+DC top-layer length (DP 1.0 mil),2946.2,mm,[CALCULATED],Douglas-Peucker 1.0 mil (> 0.71 mil max vertex-rounding jitter) removes 1-mil grid zig-zag on arcs
+DC bottom-layer route length,56.2,mm,[CALCULATED],card_copper_signal_bot.gbr D12 route via->pad
+DC total length (DP 1.0 mil top + bottom),3002.4,mm,[CALCULATED],excludes 1.6 mm via barrel
+DC turns (winding angle outer->inner / 360),23.44,turns,[CALCULATED],"unwrapped polar angle about body centre, pad to via"
+DC sense outer->inner,clockwise (viewed from top),-,[CALCULATED],sign of winding angle
+DC body centreline extents,65.51 x 47.50,mm,[CALCULATED],"bbox of chain inside x in [0.30,3.05] in"
+A-D adjacent length (sum over both sides),5694,mm,[CALCULATED],AC centreline sampled every 0.1 mm; DC conductor found at +-1 pitch
+pad dia / drill,1.60 / 1.10,mm,[DESIGN],D11 / nc_drill D9501
+via pad dia / drill,0.60 / 0.30,mm,[DESIGN],D14 / nc_drill D9500

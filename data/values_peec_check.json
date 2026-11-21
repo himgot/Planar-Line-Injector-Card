@@ -1,0 +1,312 @@
+{
+ "source": "copper layers of the measured card (winding copper identical to hardware/Planar_Line_Injector_gerbers.zip)",
+ "method_note": "second, separately written calculation: own RS-274X parser and PEEC partial-inductance engine (exact rectangular-bar formulas)",
+ "outline_mm": {
+  "width": 85.598,
+  "height": 53.975,
+  "corner_radius": 2.87
+ },
+ "trace_width_drawn_mm": 0.254,
+ "pitch_centre_AB_mm": 0.508,
+ "pitch_same_winding_mm": 1.016,
+ "gap_edge_to_edge_mm": 0.254,
+ "min_centreline_spacing_AB_mm": 0.4823,
+ "min_gap_AB_mm": 0.2283,
+ "windings": {
+  "A": {
+   "path_length_top_mm": 2950.688,
+   "bottom_lead_length_mm": 56.189,
+   "path_length_pad_to_pad_mm": 3006.877,
+   "start_pad_mm": [
+    1.9812,
+    41.9608
+   ],
+   "inner_via_mm": [
+    51.9176,
+    27.1018
+   ],
+   "return_pad_mm": [
+    1.9812,
+    11.9888
+   ],
+   "revolutions_pad_to_via": 23.442,
+   "sense": "clockwise (viewed from top) going outer pad -> inner via",
+   "gerber_segments_raw": 1699,
+   "segments_after_collinear_merge": 1087,
+   "R_dc": {
+    "w0.254mm_t35um": {
+     "top_spiral_ohm": 5.7221,
+     "pad_to_pad_incl_bottom_lead_ohm": 5.8311
+    },
+    "w0.254mm_t30um": {
+     "top_spiral_ohm": 6.6758,
+     "pad_to_pad_incl_bottom_lead_ohm": 6.803
+    },
+    "w0.200mm_t35um": {
+     "top_spiral_ohm": 7.2671,
+     "pad_to_pad_incl_bottom_lead_ohm": 7.4055
+    },
+    "w0.200mm_t30um": {
+     "top_spiral_ohm": 8.4783,
+     "pad_to_pad_incl_bottom_lead_ohm": 8.6398
+    }
+   }
+  },
+  "B": {
+   "path_length_top_mm": 2947.722,
+   "bottom_lead_length_mm": 56.376,
+   "path_length_pad_to_pad_mm": 3004.098,
+   "start_pad_mm": [
+    83.5914,
+    12.7
+   ],
+   "inner_via_mm": [
+    33.7312,
+    26.8478
+   ],
+   "return_pad_mm": [
+    83.5914,
+    42.5958
+   ],
+   "revolutions_pad_to_via": 23.444,
+   "sense": "clockwise (viewed from top) going outer pad -> inner via",
+   "gerber_segments_raw": 1683,
+   "segments_after_collinear_merge": 1094,
+   "R_dc": {
+    "w0.254mm_t35um": {
+     "top_spiral_ohm": 5.7164,
+     "pad_to_pad_incl_bottom_lead_ohm": 5.8257
+    },
+    "w0.254mm_t30um": {
+     "top_spiral_ohm": 6.6691,
+     "pad_to_pad_incl_bottom_lead_ohm": 6.7967
+    },
+    "w0.200mm_t35um": {
+     "top_spiral_ohm": 7.2598,
+     "pad_to_pad_incl_bottom_lead_ohm": 7.3987
+    },
+    "w0.200mm_t30um": {
+     "top_spiral_ohm": 8.4698,
+     "pad_to_pad_incl_bottom_lead_ohm": 8.6318
+    }
+   }
+  }
+ },
+ "ray_crossings_per_winding_from_centre": {
+  "0": {
+   "A": 23,
+   "B": 23
+  },
+  "90": {
+   "A": 24,
+   "B": 23
+  },
+  "180": {
+   "A": 23,
+   "B": 23
+  },
+  "270": {
+   "A": 23,
+   "B": 24
+  }
+ },
+ "inductance_top_layer_only": {
+  "LA_uH": 17.5155,
+  "LB_uH": 17.4936,
+  "M_uH": 16.5155,
+  "k": 0.9435,
+  "leakage_LA_minus_M_uH": 1.0,
+  "leakage_LB_minus_M_uH": 0.9781,
+  "sign_convention": "both windings oriented outer pad -> inner via; M>0 = aiding",
+  "numerical_uncertainty_rel": 5e-05,
+  "model_uncertainty_rel_L_M": 0.0003,
+  "model_uncertainty_rel_leakage": 0.01
+ },
+ "inductance_pad_to_pad_incl_bottom_leads_and_vias_1.6mm_board": {
+  "LA_uH": 17.647,
+  "LB_uH": 17.6293,
+  "M_uH": 16.6055,
+  "k": 0.94145,
+  "note": "board thickness not in Gerbers; 1.6 mm assumed; 0.8 mm gives LA=17.656, LB=17.639, M=16.619 uH"
+ },
+ "convergence": {
+  "base": {
+   "LA_uH": 17.51551,
+   "LB_uH": 17.49356,
+   "M_uH": 16.51547,
+   "k": 0.943497,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "q4": {
+   "LA_uH": 17.51944,
+   "LB_uH": 17.49739,
+   "M_uH": 16.5188,
+   "k": 0.943478,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "q16": {
+   "LA_uH": 17.51552,
+   "LB_uH": 17.49357,
+   "M_uH": 16.51547,
+   "k": 0.943496,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "nw1": {
+   "LA_uH": 17.5141,
+   "LB_uH": 17.4922,
+   "M_uH": 16.50449,
+   "k": 0.942944,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "nw5": {
+   "LA_uH": 17.5155,
+   "LB_uH": 17.49354,
+   "M_uH": 16.51547,
+   "k": 0.943497,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "par_hi": {
+   "LA_uH": 17.51551,
+   "LB_uH": 17.49356,
+   "M_uH": 16.51547,
+   "k": 0.943497,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "par_lo": {
+   "LA_uH": 17.51552,
+   "LB_uH": 17.49357,
+   "M_uH": 16.51548,
+   "k": 0.943497,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "DHL_5mm": {
+   "LA_uH": 17.51551,
+   "LB_uH": 17.49356,
+   "M_uH": 16.51547,
+   "k": 0.943497,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "DHL_0.6mm": {
+   "LA_uH": 17.51551,
+   "LB_uH": 17.49356,
+   "M_uH": 16.51547,
+   "k": 0.943497,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "subdiv_2mm": {
+   "LA_uH": 17.5156,
+   "LB_uH": 17.49365,
+   "M_uH": 16.51559,
+   "k": 0.943499,
+   "nseg": [
+    2440,
+    2449
+   ]
+  },
+  "dejitter": {
+   "LA_uH": 17.51446,
+   "LB_uH": 17.49252,
+   "M_uH": 16.5152,
+   "k": 0.943538,
+   "nseg": [
+    391,
+    390
+   ]
+  },
+  "centreline_all": {
+   "LA_uH": 17.51083,
+   "LB_uH": 17.48892,
+   "M_uH": 16.48753,
+   "k": 0.942151,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "touch_width": {
+   "LA_uH": 17.51294,
+   "LB_uH": 17.49096,
+   "M_uH": 16.51547,
+   "k": 0.943636,
+   "nseg": [
+    1087,
+    1094
+   ]
+  },
+  "with_leads": {
+   "LA_uH": 17.64705,
+   "LB_uH": 17.62926,
+   "M_uH": 16.60552,
+   "k": 0.941455,
+   "nseg": [
+    1092,
+    1099
+   ]
+  },
+  "with_leads_0.8": {
+   "LA_uH": 17.65607,
+   "LB_uH": 17.63923,
+   "M_uH": 16.61948,
+   "k": 0.941739,
+   "nseg": [
+    1092,
+    1099
+   ]
+  }
+ },
+ "interwinding_capacitance": {
+  "air_above": {
+   "C_per_m_pF": 23.906,
+   "C_total_pF": 134.7
+  },
+  "thin_mask_eff_1.6": {
+   "C_per_m_pF": 26.563,
+   "C_total_pF": 149.6
+  },
+  "mask_halfspace_3.8_upper_bound": {
+   "C_per_m_pF": 36.302,
+   "C_total_pF": 204.5
+  },
+  "sidewall_addon_pF": [
+   6.9,
+   26.1
+  ],
+  "isolated_CPS_pair_air_above_pF_per_m": 37.38,
+  "coupled_gap_length_m": 5.633,
+  "k_modulus": 0.7071067811865475,
+  "K_over_Kprime": 0.9999999999999999,
+  "formula": "C = L_gap * (eps0/2)(er_sub+er_top) K(k)/K(sqrt(1-k^2)), k = sin(pi w / (2 p)); w=0.254, p=0.508 mm, er_sub=4.4",
+  "estimate_pF_range": [
+   134.7,
+   230.6
+  ],
+  "central_estimate_pF": 156.0
+ }
+}

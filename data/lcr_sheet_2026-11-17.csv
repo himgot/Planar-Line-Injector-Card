@@ -1,0 +1,9 @@
+config_no,link,measured_terminals,measured_winding,other_winding,connection,description,L_1kHz_uH,L_10kHz_uH
+1,none,DC_IN-OUT,B (DC),AC open,single_open,DC winding measured; AC winding open,17.9,17.96
+2,AC_IN-AC_RTN shorted,DC_IN-OUT,B (DC),AC shorted,single_short,DC winding measured; AC winding shorted,17.9,17.57
+3,none,AC_IN-AC_RTN,A (AC),DC open,single_open,AC winding measured; DC winding open,17.9,17.94
+4,DC_IN-OUT shorted,AC_IN-AC_RTN,A (AC),DC shorted,single_short,AC winding measured; DC winding shorted,17.9,17.55
+5,DC_IN<->AC_IN,OUT-AC_RTN,A+B series,-,aiding,DC_IN linked to AC_IN; measured OUT-AC_RTN (aiding),67.7,68.19
+6,OUT<->AC_RTN,DC_IN-AC_IN,A+B series,-,aiding,OUT linked to AC_RTN; measured DC_IN-AC_IN (aiding),67.3,67.67
+7,DC_IN<->AC_RTN,OUT-AC_IN,A+B series,-,opposing,DC_IN linked to AC_RTN; measured OUT-AC_IN (opposing),2.5,2.79
+8,OUT<->AC_IN,DC_IN-AC_RTN,A+B series,-,opposing,OUT linked to AC_IN; measured DC_IN-AC_RTN (opposing),2.2,2.5

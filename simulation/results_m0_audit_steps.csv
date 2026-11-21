@@ -1,0 +1,8 @@
+step,change,dB_100kHz,dB_1MHz,dB_5MHz,max_dB_10k_30M,f_max_MHz,rms_all_runR,rms_all_runX
+S0,"M0 initial model: Rser=1, winding R 7.31/7.31 (in the inductor properties), L 18/18 uH, k 0.9 (phasing opposite to the measured polarity), C1-C3 274 pF, no load",-2.777,0.07892,6.247,17.25,3.68,5.983,7.363
+S1,+ load R_L = 111.6 ohm at the probed node,-3.653,-1.25,2.156,3.756,3.714,4.103,5.338
+S2,+ generator source resistance 50 ohm (instead of Rser = 1),-15.82,-4.123,-3.731,-3.73,5.079,2.675,3.194
+S3,+ like-polarity dots as measured (AC_IN with OUT),-15.86,-4.749,-21.79,-4.525,1.608,8.706,10.28
+S4,- remove the three 274 pF lumped capacitors (magnetic only),-15.89,-5.088,-5.999,-4.883,1.668,3.242,3.887
+S5,"+ measured L_A, L_B, k, R (= M2)",-15.83,-5.02,-5.713,-4.792,1.763,3.142,3.786
+S6,"+ distributed 274 pF ladder, N=24 PEEC sections (= M3)",-15.82,-5.041,-7.498,-3.576,17.92,3.896,4.482
