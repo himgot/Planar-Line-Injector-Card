@@ -19,7 +19,7 @@ source, the Gerber and Altium design files, the measured data, the
 photographs, the simulation files and the Python scripts that compute
 every number in the paper.
 
-Paper: paper/Gautam_Planar_Line_Injector_Card_v1.0.pdf
+Paper: paper/Planar_Line_Injector_Card_v1.0.pdf
 (preprint, not peer reviewed)
 
 
